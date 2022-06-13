@@ -93,7 +93,7 @@ footer {
     	border: 1px solid gray;
         width: 0.1px;
         height: 100px;
-        border-width: thin;
+        
     }
 
 
@@ -196,7 +196,7 @@ footer {
 								</li>
 						</a>
 					</c:forEach>
-					
+					l
 				</ul>
 			</div>
 		</div>
@@ -282,7 +282,7 @@ footer {
     <script>
     var mapContainer = document.getElementById('map3'), // 지도를 표시할 div 
     mapOption = { 
-        center: new kakao.maps.LatLng(37.4730836, 126.8788276), // 지도의 중심좌표
+        center: new kakao.maps.LatLng(37.47886154693703, 126.87820855391175), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
     };
 

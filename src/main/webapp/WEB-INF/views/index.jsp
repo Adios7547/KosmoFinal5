@@ -36,5 +36,6 @@ pageEncoding="UTF-8"%>
     <a href="include/myPage/myPageDogLists">마이페이지 - 반려동물리스트</a>
     <a href="include/myPage/myPageDogDetail">마이페이지 - 반려동물정보보기</a>
     <a href="walk">산책</a><br /><br />
+    <%response.sendRedirect("include/Main"); %>
   </body>
 </html>
